@@ -4,7 +4,7 @@ This is my personal portfolio site, built to showcase my projects and technical 
 
  **Live Site:** [owen-finucan.com](https://owen-finucan.com)
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Framework:** React
 - **Styling:** Tailwind CSS
 - **Language:** JavaScript
