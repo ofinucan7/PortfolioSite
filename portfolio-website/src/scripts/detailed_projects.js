@@ -38,7 +38,7 @@ export const movie_plus = {
 
 export const portfolio_site = {
     proj_name: "Portfolio Website",
-    github: "owen-finucan.com",
+    github: "https://github.com/ofinucan7/PortfolioSite/tree/main",
     project: "owen-finucan.com",
     imgs: ["/imgs/projects/portfolio_website/home_page.jpg", "/imgs/projects/portfolio_website/home_page.jpg", "/imgs/projects/portfolio_website/home_page.jpg"],
     
