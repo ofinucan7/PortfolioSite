@@ -46,17 +46,16 @@ const Navbar = () => {
       {showResume && (
         <div className="fixed inset-0 bg-[#030303] bg-opacity-60 backdrop-blur-sm flex items-center justify-center z-50 p-4" onClick={() => setShowResume(false)}>
           <div className="bg-[#D4C9BE] border-4 sm:border-[8px] border-[#123458] max-w-md w-full rounded-lg sm:rounded-xl p-6 relative text-[#111] text-center" onClick={(e) => e.stopPropagation()}>
-            {/* close button */}
             <button onClick={() => setShowResume(false)} className="absolute top-2 right-4 text-gray-500 hover:text-black text-2xl"> &times; </button>
 
-            <h1 className="text-lg text-[#030303] mb-6"> How would you like so see my resume? </h1>
+            <h1 className="text-lg text-[#030303] mb-6"> How would you like to see my resume? </h1>
 
             <div className="space-y-4">
               {/* opens to new tab */}
               <a href="/Finucan%2C%20Owen%20-%20Resume.pdf" target="_blank" rel="noopener noreferrer" className="block w-full bg-[#123458] text-[#F1EFEC] px-6 py-3 rounded-full font-medium hover:bg-[#0f2e4a] transition text-sm sm:text-base"> In Browser (opens in new tab) </a>
 
               {/* Download */}
-              <a href="/Finucan%2C%20Owen%20-%20Resume.pdf" download="Finucan, Owen - Resume.pdf" className="block w-full bg-[#123458] text-[#F1EFEC] px-6 py-3 rounded-full font-medium hover:bg-[#0f2e4a] transition text-sm sm:text-base"> Download Resume (PDF) </a>
+              <a href="/Finucan%2C%20Owen%20-%20Resume.pdf" download="Finucan, Owen - Resume.pdf" className="block w-full bg-[#123458] text-[#F1EFEC] px-6 py-3 rounded-full font-medium hover:bg-[#0f2e4a] transition text-sm sm:text-base"> Download (PDF) </a>
             </div>
 
           </div>
@@ -76,7 +75,7 @@ const Navbar = () => {
             <button onClick={() => setShowContactMe(false)} className="absolute top-1 right-2 sm:top-2 sm:right-4 text-gray-500 hover:text-black text-xl sm:text-2xl"> &times; </button>
 
             <h1 className="text-xl sm:text-2xl font-bold"> Contact Me </h1>
-            <p className='text-xs sm:text-sm mb-2 sm:mb-[8px]'> Please just leave one of your phone number or your email so I can get back to you. </p>
+            <p className='text-xs sm:text-sm mb-2 sm:mb-[8px]'> Please leave either your phone number or email and I will get back to you as soon as I can. </p>
 
             {/* form submission */}
             <form action="https://formspree.io/f/mjkovlel" method="POST" className='flex flex-col gap-2 sm:gap-4 overflow-y-auto pr-1 sm:pr-2 flex-1' onSubmit={ handleFormSubmit }>
