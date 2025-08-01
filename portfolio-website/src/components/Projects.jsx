@@ -6,7 +6,7 @@ const Projects = ({ projects }) => {
   const navigate = useNavigate();
 
   return (
-    <div className="max-w-4xl mx-auto py-6 sm:py-10 lg:py-16 px-4 text-[#F1EFEC] mt-8 sm:mt-16 lg:-mt-32 xl:-mt-72">
+    <div className="max-w-4xl mx-auto py-6 sm:py-10 lg:py-16 px-4 sm:px-6 md:px-8 text-[#F1EFEC] -mt-8 sm:mt-16 md:-mt-48 lg:-mt-48 xl:-mt-72">
       <h2 className={`text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 text-[#F1EFEC]`} > Projects </h2>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6">
