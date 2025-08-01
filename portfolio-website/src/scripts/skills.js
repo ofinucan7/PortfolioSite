@@ -46,7 +46,7 @@ export const details_by_skill = {
     Courses: ["CS-1520 Programming Languages for Web Applications"]
   },
   Python: {
-    Projects: ["Movie+"],
+    Projects: ["Movie+", "MedDay:EMT"],
     Courses: ["CS-2078 Intro to Deep Learning", "CS-1520 Programming Languages for Web Applications"]
   },
   AI: {

@@ -6,25 +6,21 @@ import ProjRightCol from './ProjRightCol';
 
 const MoviePlus = () => {
   return (
-    <div className="min-h-screen flex flex-col">
-      <Nav />
-
-      <div className="flex-grow">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-
-          {/* left col (title, links, stack) */}
-          <div>
-            <ProjLeftCol />
-          </div>
-
-          {/* right col (imgs/interaction, dialogue) */}
-          <div>
-            <ProjRightCol />
-          </div>
-        </div>
+    <div className="min-h-screen flex flex-col bg-black">
+      <div className="w-full z-20">
+        <Nav />
       </div>
 
-      <Footer />
+      <main className="flex-grow w-full px-4 py-8 sm:px-6 lg:px-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <ProjLeftCol />
+          <ProjRightCol />
+        </div>
+      </main>
+
+      <div className="w-full z-20">
+        <Footer />
+      </div>
     </div>
   );
 };

@@ -11,5 +11,10 @@ export const projects = [
       stack: ["React", "TailwindCSS", "JavaScript", "Docker", "Cloud Deployment"],
       desc: "Personal website for recruiters and others to see what I have been working on.",
       redirect: "/projects/portfolio"
+    },
+    {title: "MedDay:EMT", short_desc: "Hackathon Project", img: "/imgs/projects/medday/home-screen-img.jpg", 
+      stack: ["Python", "PyGame", "GitHub"],
+      desc: "Winner of the Supporting Caregivers Track at the Pitt Challenge 2023 Hackathon.",
+      redirect: "/projects/medday"
     }
   ]

@@ -5,6 +5,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { IoIosCloudUpload } from "react-icons/io";
 import { MdEnhancedEncryption } from "react-icons/md";
 import { BsStripe } from "react-icons/bs";
+import { LuGamepad2 } from "react-icons/lu";
 
 
 export const movie_plus = {
@@ -52,4 +53,28 @@ export const portfolio_site = {
     ],
     
     dialogue: "Just my personal portfolio site to show off some projects. Nothing too fancy."
+}
+
+export const medday = {
+    proj_name: "MedDay-EMT",
+    github: "https://github.com/ofinucan7/MedDay-EMT",
+    project: "https://devpost.com/software/med-day?_gl=1*1ibj07o*_gcl_au*MTg0MTUwMjE0OS4xNzU0MDg2NTk0*_ga*ODgxNTEzNDI2LjE3NTQwODY1OTU.*_ga_0YHJK3Y10M*czE3NTQwODY1OTQkbzEkZzEkdDE3NTQwODY2MDgkajQ2JGwwJGgw",
+    imgs: ["/imgs/projects/medday/Slide1.jpg", "/imgs/projects/medday/Slide2.jpg", "/imgs/projects/medday/Slide3.jpg",
+            "/imgs/projects/medday/Slide4.jpg", "/imgs/projects/medday/Slide5.jpg", "/imgs/projects/medday/Slide6.jpg",
+            "/imgs/projects/medday/Slide7.jpg", "/imgs/projects/medday/Slide8.jpg", "/imgs/projects/medday/Slide9.jpg",
+            "/imgs/projects/medday/Slide10.jpg",
+    ],
+    
+    stack: [
+        {name: "Python", icon: DiReact},
+        {name: "PyGame", icon: LuGamepad2},
+        {name: "Github", icon: DiGithubBadge}
+    ],
+    
+    dialogue: "This was my group's submission to the Pitt Challenge 2023 Healthcare Hackathon, where we won the Supporting Caregivers Track. Above is the slideshow we " +
+              "presented to a panel of judges from various healthcare-related backgrounds. The project was designed as a training tool for EMT students to practice " +
+              "their on-site arrival protocols. That is, the procedures EMTs should follow upon arriving at the scene of a call. As a team, we interviewed several " +
+              "EMT students to better understand the rules, guidelines, and common mistakes associated with on-site arrival. While the design aesthetic was a " +
+              "collaborative effort, I was primarily responsible for implementing it in PyGame. I also contributed to building the dictionary-based backend used to store user choices."
+
 }

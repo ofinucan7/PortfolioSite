@@ -4,7 +4,7 @@ import { Footer } from '../../../components/Footer';
 import ProjLeftCol from './ProjLeftCol';
 import ProjRightCol from './ProjRightCol';
 
-const Portfolio = () => {
+const MedDay = () => {
   return (
     <div className="min-h-screen flex flex-col bg-black">
       <div className="w-full z-10">
@@ -25,4 +25,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default MedDay;

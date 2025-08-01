@@ -1,23 +1,23 @@
 import React from 'react';
 import { FaGithub } from 'react-icons/fa';
-import { portfolio_site } from '../../../scripts/detailed_projects';
+import { medday } from '../../../scripts/detailed_projects';
 import { HiOutlineCog } from "react-icons/hi";
 
 const ProjLeftCol = () => {
-  const github_url = portfolio_site.github;
-  const relevant_site = portfolio_site.project;
-  const tech_stack = portfolio_site.stack;
+  const github_url = medday.github;
+  const relevant_site = medday.project;
+  const tech_stack = medday.stack;
 
   return (
     <div className="flex flex-col items-center space-y-6 text-center w-full max-w-xl mx-auto px-4 z-10">
-      <h1 className="text-3xl font-bold text-[#F1EFEC]">{portfolio_site.proj_name}</h1>
+      <h1 className="text-3xl font-bold text-[#F1EFEC]">{medday.proj_name}</h1>
 
       <div className="flex justify-center">
         <div className="flex flex-wrap gap-4 z-60">
           <a href={github_url} target="_blank" rel="noopener noreferrer" className="flex items-center bg-[#F1EFEC] hover:bg-[#D4C9BE] text-[#123458] px-10 py-2 rounded transition font-medium"> 
             <FaGithub className="mr-2" /> GitHub 
           </a>
-          <a href={relevant_site} target="_blank" rel="noopener noreferrer" className="bg-[#F1EFEC] hover:bg-[#D4C9BE] text-[#123458] px-10 py-2 rounded transition font-medium">  Live Site </a>
+          <a href={relevant_site} target="_blank" rel="noopener noreferrer" className="bg-[#F1EFEC] hover:bg-[#D4C9BE] text-[#123458] px-10 py-2 rounded transition font-medium">  DevPost </a>
         </div>
       </div>
 

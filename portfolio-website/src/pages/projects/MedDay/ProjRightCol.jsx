@@ -1,12 +1,12 @@
 import React from 'react'
 import Slider from 'react-slick'
-import { movie_plus } from '../../../scripts/detailed_projects'
+import { medday } from '../../../scripts/detailed_projects'
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 
 const ProjRightCol = () => {
-  const imgs = movie_plus.imgs;
-  const dialogue = movie_plus.dialogue;
+  const imgs = medday.imgs;
+  const dialogue = medday.dialogue;
 
   const settings = {
     dots: true,
