@@ -3,7 +3,7 @@ import { IoIosCheckmarkCircle } from "react-icons/io";
 
 const Hero = () => {
   return (
-    <div className={`flex justify-center items-center min-h-screen px-4 sm:px-6 md:px-8 -mt-48 sm:-mt-36 md:-mt-48 lg:-mt-48 xl:-mt-60 2xl:-mt-72 text-[#F1EFEC]`}>
+    <div className={`flex justify-center items-center min-h-screen px-4 sm:px-6 md:px-8 -mt-36 text-[#F1EFEC]`}>
       <div className="flex flex-col items-start max-w-2xl w-full space-y-4 sm:space-y-6">
         
         {/* picture + greeting */}

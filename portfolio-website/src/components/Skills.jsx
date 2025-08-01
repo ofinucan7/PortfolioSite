@@ -5,7 +5,7 @@ const Skills = ({ focus_skills, all_skills, change_text_color } ) => {
   const [selectedSkill, setSelectedSkill] = useState(null);
 
   return (
-    <div className="max-w-6xl mx-auto px-4 sm:px-6 md:px-8 py-8 sm:py-12 lg:py-20 text-[#F1EFEC] mt-12 sm:mt-12 md:mt-16 lg:-mt-2 xl:-mt-8 2xl:mt-2">
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 md:px-8 py-8 sm:py-12 lg:py-20 text-[#F1EFEC] mt-12">
 
       {/* focus skills section */}
       <div className='mb-8 sm:mb-12 lg:mb-[24px]'>
