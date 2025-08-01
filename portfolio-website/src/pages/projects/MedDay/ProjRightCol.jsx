@@ -3,6 +3,7 @@ import Slider from 'react-slick'
 import { medday } from '../../../scripts/detailed_projects'
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
+import { useEffect } from 'react';
 
 const ProjRightCol = () => {
   const imgs = medday.imgs;
@@ -16,6 +17,10 @@ const ProjRightCol = () => {
     arrows: true,
     pauseOnHover: true
   };
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="relative z-10 w-full max-w-xl mx-auto px-4 py-6 text-left text-[#F1EFEC]">
