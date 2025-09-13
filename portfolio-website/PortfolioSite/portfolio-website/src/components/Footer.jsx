@@ -6,7 +6,7 @@ export const Footer = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  const lastUpdated = 'September 13rd, 2025'
+  const lastUpdated = 'July 23rd, 2025'
 
   return (
     <div className="bg-[#123458] text-[#F1EFEC] text-xs sm:text-sm py-4 sm:py-6 px-4 mt-8 sm:mt-12 lg:-mt-[24px] z-10">

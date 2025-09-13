@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes spaghettify {
+  0% {
+    transform: scale(1) skewY(0deg);
+    opacity: 1;
+  }
+  80% {
+    transform: scale(3, 6) skewY(30deg);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(10, 20) skewY(50deg);
+    opacity: 0;
+  }
+}
+
+.spaghettify {
+  animation: spaghettify 1.5s ease-in-out forwards;
+  transform-origin: 1750px 200px;
+  z-index: 9999;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes flash-burst {
+  0% { opacity: 0; }
+  30% { opacity: 1; }
+  60% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.8s ease forwards;
+}
+
+.animate-flash-burst {
+  animation: flash-burst 0.4s ease forwards;
+}
+
+.unspaghettify {
+  animation: spaghettify 1.5s ease-in-out forwards;
+  transform-origin: 100px 300px; 
+  z-index: 9999;
+}

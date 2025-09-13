@@ -29,8 +29,8 @@ const Hero = () => {
               I am currently pursuing a B.S. in Computer Science with a Mathematics minor at the University of Pittsburgh, 
               with an expected graduation date of December 2025. I am based in Pittsburgh but am open to relocation. I have 
               experience as a full-stack developer and am open to a variety of roles. That said, I am especially passionate
-              about AI/ML and ultimately hope to build a career in that industry. Outside of computers and technology, I 
-              enjoy weight lifting, music, sports, and space. 
+              about AI and ultimately hope to build a career in that space. Outside of computers and technology, I enjoy weight 
+              lifting, music, sports, and space. 
             </p>
         </div>
 

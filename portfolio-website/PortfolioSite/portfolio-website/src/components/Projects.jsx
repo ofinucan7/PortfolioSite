@@ -29,18 +29,9 @@ const Projects = ({ projects }) => {
             <p className="mb-3 sm:mb-4 text-sm sm:text-base">{selectedProject.desc}</p>
             <img src={selectedProject.img} alt={`${selectedProject.title} screenshot`} className="rounded-md w-full h-auto object-cover mb-3 sm:mb-4"/>
             <p className="text-xs sm:text-sm text-[#030303] mb-3 sm:mb-4"> Tech Stack: {selectedProject.stack?.join(", ") || "N/A"} </p>
-              <div className="flex justify-center">
-                {selectedProject.github ? (
-                  <a href={selectedProject.github} target="_blank" rel="noopener noreferrer" onClick={() => setSelectedProject(null)} className="bg-[#123458] text-[#F1EFEC] px-4 sm:px-5 py-2 rounded-full font-medium transition hover:bg-[#0f2e4a] hover:shadow-md text-sm sm:text-base">
-                    {selectedProject.more_button || "Visit GitHub"}
-                  </a>
-                ) : selectedProject.redirect ? (
-                  <button onClick={() => { setSelectedProject(null); navigate(selectedProject.redirect);}}
-                    className="bg-[#123458] text-[#F1EFEC] px-4 sm:px-5 py-2 rounded-full font-medium transition hover:bg-[#0f2e4a] hover:shadow-md text-sm sm:text-base">
-                    {selectedProject.more_button || "Explore Details"}
-                  </button>
-                ) : null}
-              </div>
+            <div className="flex justify-center">
+              <button onClick={() => navigate(selectedProject.redirect)} className="bg-[#123458] text-[#F1EFEC] px-4 sm:px-5 py-2 rounded-full font-medium transition hover:bg-[#0f2e4a] hover:shadow-md text-sm sm:text-base"> Explore Details </button>
+            </div>
           </div>
         </div>
       )}

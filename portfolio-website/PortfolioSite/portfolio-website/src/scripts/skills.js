@@ -46,11 +46,11 @@ export const details_by_skill = {
     Courses: ["CS-1520 Programming Languages for Web Applications"]
   },
   Python: {
-    Projects: ["Custom Transformer", "Abracadabra", "Movie+", "MedDay:EMT"],
+    Projects: ["Movie+", "MedDay:EMT"],
     Courses: ["CS-2078 Intro to Deep Learning", "CS-1520 Programming Languages for Web Applications"]
   },
   AI: {
-    Projects: ["Custom Transformer"],
+    Projects: [],
     Courses: ["CS-2078 Intro to Deep Learning", "CS-2075 Intro to Machine Learning", "CS-1699 Implications of AI", "CS-1684 Bias and Ethical Implications in AI"]
   },
   HTML: {
@@ -75,7 +75,7 @@ export const details_by_skill = {
   },
   Java: {
     Projects: [],
-    Courses: ["CS-1550 Introduction to Operating Systems", "CS-1501 Algorithms and Data Structures 2", "CS-0455 Algorithms and Data Structures 1"],
+    Courses: ["CS-1550 Introduction to Operating Systems", "CS-1501 Algorithms and Data Structures 2, CS-0455 Algorithms and Data Structures 1"],
   },
   C: {
     Projects: [],

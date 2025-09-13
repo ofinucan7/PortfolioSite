@@ -37,6 +37,24 @@ export const movie_plus = {
 
 }
 
+export const portfolio_site = {
+    proj_name: "Portfolio Website",
+    github: "owen-finucan.com",
+    project: "owen-finucan.com",
+    imgs: ["/imgs/projects/portfolio_website/home_page.jpg", "/imgs/projects/portfolio_website/home_page.jpg", "/imgs/projects/portfolio_website/home_page.jpg"],
+    
+    stack: [
+        {name: "React", icon: DiReact},
+        {name: "TailwindCSS", icon: RiTailwindCssFill},
+        {name: "JavaScript", icon: DiJavascript1},
+        {name: "Docker", icon: DiDocker},
+        {name: "Cloud Deployment", icon: IoIosCloudUpload},
+        {name: "Github", icon: DiGithubBadge}
+    ],
+    
+    dialogue: "Just my personal portfolio site to show off some projects. Nothing too fancy."
+}
+
 export const medday = {
     proj_name: "MedDay-EMT",
     github: "https://github.com/ofinucan7/MedDay-EMT",
